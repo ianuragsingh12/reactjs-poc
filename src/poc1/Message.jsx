@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import iconImagePath from "../images/";
 
 class Message extends Component {
   render() {

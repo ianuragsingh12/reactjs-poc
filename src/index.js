@@ -2,14 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 // import App from "./App";
-// import MessageContainer from "./poc1/MessageContainer.jsx";
-// import App2 from "./poc2/App2.jsx";
-// import App1 from "./poc3/App1.jsx";
-// import App23 from "./poc23/App.jsx";
-import App4 from "./poc4/App4.jsx";
+// import Poc from "./poc1/MessageContainer.jsx";
+import Poc from "./poc2/App2.jsx";
+// import Poc from "./poc3/App1.jsx"; //PropTypes should be install
+// import Poc from "./poc23/App.jsx";
+// import Poc from "./poc4/App4.jsx";
 import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<App4 />, document.getElementById("root"));
+ReactDOM.render(<Poc />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
