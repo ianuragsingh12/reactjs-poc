@@ -3,9 +3,15 @@ import React, { Component } from "react";
 
 class Message extends Component {
   render() {
-    var iconImagePath = "../images/";
-    iconImagePath =
-      iconImagePath + (this.props.isLoved ? "loved.png" : "not-loved.png");
+    // var iconImagePath = "../images/";
+    // iconImagePath =
+    //   iconImagePath + (this.props.isLoved ? "loved.png" : "not-loved.png");
+
+    let path = {
+      l: require("../images/loved.png"),
+      nl: require("../images/not-loved.png")
+    };
+    let iconImagePath = this.props.isLoved ? path.l : path.nl;
     return (
       <span>
         <img src={iconImagePath} alt="Love status" />

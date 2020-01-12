@@ -25,7 +25,7 @@ class MessageContainer extends Component {
       <div className="message">
         <Message text={messageText} isLoved={this.state.isLoved} />
         <Button text={buttonText} onClick={this.toggleLove} />
-        {text}
+        {/* {text} */}
       </div>
     );
   }
